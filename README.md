@@ -1,9 +1,9 @@
-# Merge Me
+# Merge Me 🙌 
 Welcoming to Merge Me, an open source repository that allows you to practice making your first pull/merge requests.
 
 As a new programmer, the thought of performing your contribution can be a little scary. But it's time to put all your fears aside, pull yourself up, and git with the program. *See what I did there?*
 
-## Getting Started
+## Getting Started 🟢
 
 If you open up index.html in the browser, you'll find a small application with a few features:
 
@@ -12,6 +12,8 @@ If you open up index.html in the browser, you'll find a small application with a
 * A "I wuz here" section for you to add in **your** own code.
 
 *If you're comfortable with it, feel free to add in fun styling to the "I wuz here" title, container, or even create something new! All we ask is that you leave the directions alone, so others can have the same awesome learning experience you did.*
+
+*If you attempt to contribut anything that breaks the code od conduct, **your contribution will not be added***
 
 After reading the directions, go ahead and try out making your first pull request. After you've competed everything correctly and pushed up your contribution, we'll approve it, and you'll be able see it on the main branch. That's all there is to successfully created your first contribution on github!
 
