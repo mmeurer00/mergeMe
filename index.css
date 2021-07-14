@@ -65,32 +65,55 @@ h1 {
     background-color: rgb(221, 244, 252);
     width: 55rem;
     padding: 1rem;
-    border-radius: 2%;
+    border-radius: 4%;
     border: 5px solid rgb(123, 191, 214);
+    margin: 0 auto;
 }
+
+
+.i-wuz-here-container {
+  border: 5px solid black;
+  border-radius: 4%;
+  height: 50rem;
+  width: auto;
+  color: grey;
+  font-size: 1.2rem;
+  font-family: 'Ubuntu Mono'
+}
+
 .i-wuz-here-title {
     position: relative;  
     text-align: center; 
+    color: black;
 }
-.i-wuz-here-container {
-    border: 5px solid black;
-    height: 50rem;
-    width: auto;
-    color: grey;
-    font-size: 1.2rem;
-    font-family: 'Ubuntu Mono'
-}
+
 .resource-button {
-    position: relative;
-    background-color: transparent;
+    /* position: relative;
+    background-color: #ff7779;
+    color: white;
+    width: 200px;
     border: 2px solid transparent;
     text-decoration: none;
+     */
+    border-radius: 80%;
+    position: relative;
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: white;
+    width: 250px;
+    height: 75px;
 }
 .resource-button:hover {
-    border: 2px solid rgb(123, 191, 214);
+    /* border: 2px solid rgb(123, 191, 214);
     background-color: rgb(123, 191, 214);
     border-radius: 3px;
-    transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out; */
+    background-color: white;
+    color: #ff7779;
+}
+
+.strong__text {
+  color: red;
 }
 
 a {
@@ -99,4 +122,9 @@ a {
     font-size: 1.5rem;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
+}
+
+.nicollBranch {
+  color: purple;
+  padding-left: 10px;
 }
