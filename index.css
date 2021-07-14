@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 #terminal__body {  
     background: rgba(0, 0, 0, 0.9);  
     font-family: 'Ubuntu Mono';  
-    height: 40px;  
+    height: 50px;  
     padding-top: 2px;  
     margin-top: -1px;
     border-radius: 2%;
@@ -52,8 +53,10 @@
         }
     }
 
-
-
 li {
-    width: 30rem;
+    width: 50rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
 }

@@ -9,7 +9,7 @@
         <h1>How to Create Your First Contribution</h1>
             <ol>
                 <li>
-                    Clone the Reolository to your desktool
+                    Clone the Reolository to your local environment.
                 </li>   
                 <br>
                 <li>
@@ -41,9 +41,12 @@
                     state, this avoids big bugs and annoyed developers down the line. To do this in the command line type:
                     <br>
                     <br>
-                        <ul>
-                            git checkout -b (YOUR BRANCH NAME)
-                        </ul>
+                    <section id="terminal__body">          
+                        <div id="terminal__prompt">            
+                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git checkout -b (YOUR BRANCH NAME)</span>            
+                            <span id="terminal__prompt--cursor"></span>          
+                        </div>        
+                    </section>  
                     <br>
                     When naming your branch, it's good practice to name it after what you're doing/in relation to the
                     changes being made. So, if you were to make a pull request to add a README.md file into a repo, you might
@@ -52,9 +55,11 @@
                     <p>
                         If you've done it correctly, you should have recieved the following message in your terminal:
                     </p>
-                        <ul>
-                            switched to new branch '(YOUR BRANCH NAME)'
-                        </ul>
+                    <section id="terminal__body">          
+                        <div id="terminal__prompt">            
+                            <span id="terminal__prompt--user">switched to new branch '(YOUR BRANCH NAME)'</span>                     
+                        </div>        
+                    </section>
                 </li>
                 <br>
                 <li>
@@ -67,9 +72,12 @@
                     Now we're going to do something that should hopefully feel a little fimilar. In your terminal type:
                     <br>
                     <br>
-                    <ul>
-                        git add .
-                    </ul>
+                    <section id="terminal__body">          
+                        <div id="terminal__prompt">            
+                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git add .</span>            
+                            <span id="terminal__prompt--cursor"></span>          
+                        </div>        
+                    </section>
                 </li>
                 <br>
                 <li>
@@ -79,9 +87,12 @@
                     This helps descrease debugging time, and helps eveyone else understand what the heckis going on inside the application.
                     <br>
                     <br>
-                    <ul>
-                        git commit -m "A MEANINGFUL COMMIT MESSAGE EXPLANING WHAT YOU ADDED"
-                    </ul>
+                    <section id="terminal__body">          
+                        <div id="terminal__prompt">            
+                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git commit -m "A MEANINGFUL COMMIT MESSAGE EXPLANING WHAT YOU ADDED"</span>            
+                            <span id="terminal__prompt--cursor"></span>          
+                        </div>        
+                    </section>
                 </li>
                 <br>
                 <li>
@@ -93,9 +104,12 @@
                         To avoid this, you'll instead push your changes to your newly created branch. This can be done by adjusting the good ol'
                         'git push' command to the following:
                     </p>
-                    <ul>
-                        git push origin (YOUR BRANCH NAME)
-                    </ul>
+                    <section id="terminal__body">          
+                        <div id="terminal__prompt">            
+                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git push origin (YOUR BRANCH NAME)</span>            
+                            <span id="terminal__prompt--cursor"></span>          
+                        </div>        
+                    </section>
                     <p>
                         You should recieve a message back in your terminal confirming that your code was pushed up to <strong>your</strong>
                         newly created branch. 
