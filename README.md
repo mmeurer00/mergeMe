@@ -15,7 +15,7 @@ If you open up index.html in the browser, you'll find a small application with a
 
 *If you attempt to contribute anything that breaks the code of conduct, **your contribution will not be added.***
 
-After reading the directions, go ahead and try out making your first pull request. After you've competed everything correctly and pushed up your contribution and it's approved, you'll be able see it on the main branch. That's all there is to successfully creating your first open source contribution on github!
+After reading the directions, go ahead and try out making your first pull request. After you've competed everything correctly and pushed up your contribution and it's approved, you'll be able see it on the main branch. That's all there is to successfully creating your first open source contribution on Github!
 
 ## <h2>Installation Instructions 📲</h2>
 
