@@ -9,7 +9,7 @@ If you open up index.html in the browser, you'll find a small application with a
 
 * Directions for creating your first pull/merge request
 
-* A "I wuz here" section for you to add in **your** own code.
+* An "I wuz here" section created for you to add in **your** code.
 
 *If you're comfortable with it, feel free to add in fun styling to the "I wuz here" title, container, or even create something new! All we ask is that you leave the directions alone, so others can have the same awesome learning experience you did.*
 
