@@ -6,136 +6,157 @@
     <link rel="stylesheet" href="index.css">
 </head>
     <body>
-        <h1>How to Create Your First Contribution</h1>
-            <ol>
-                <li>
-                    Clone the Reolository to your local environment.
-                </li>   
-                <br>
-                <li>
-                    First is to make a olull request, this will keeol
-                    all the files locally uol-to-date with the remote
-                    reolository, in case any other develoolers you may be working with
-                    have made any changes. To do this start off by confirming you are in the 
-                    main branch, and then in your command line type:
+        <div class="directions-container">
+            <h1>How to Create Your First Contribution</h1>
+                <ol>
+                    <li>
+                        Clone the Repository to your local environment.
+                    </li>   
                     <br>
+                    <li>
+                        Start by making a pull request. This will keep
+                        all the files locally up-to-date with the remote
+                        repository, in the circumstance other developers you may be working with
+                        have made any new changes. To do this, start off by confirming you are in the 
+                        main branch, and then in your command line type:
+                        <br>
+                        <br>
+                            <section id="terminal__body">          
+                                <div id="terminal__prompt">            
+                                    <span id="terminal__prompt--user">user@Users-MacBook_Air: git pull origin main</span>            
+                                    <!-- <span id="terminal__prompt--location"></span>            
+                                    <span id="terminal__prompt--bling"></span>             -->
+                                    <span id="terminal__prompt--cursor"></span>          
+                                </div>        
+                            </section>     
+                        <br>
+                        Running this command will pull all the files from the remote branch,
+                        updating your local branch to match any changes made. It's always a good idea to do this,
+                        especially when working with others as you don't know what changes could have been made since you
+                        last accessed the branch. 
+                    </li>
                     <br>
+                    <li>
+                        After you've confirmed everything is up-to-date, you're going to check out a new
+                        branch, this will be your staging area. If you're adding a new feature to any application, you want to perserve it's original
+                        state, this avoids big bugs and annoyed developers down the line. To do this, in the command line type:
+                        <br>
+                        <br>
                         <section id="terminal__body">          
                             <div id="terminal__prompt">            
-                                <span id="terminal__prompt--user">user@Users-MacBook_Air: git pull origin main</span>            
-                                <!-- <span id="terminal__prompt--location"></span>            
-                                <span id="terminal__prompt--bling"></span>             -->
+                                <span id="terminal__prompt--user">user@Users-MacBook_Air: git checkout -b (YOUR BRANCH NAME)</span>            
                                 <span id="terminal__prompt--cursor"></span>          
                             </div>        
-                        </section>     
-                    <br>
-                    Running this command will pull all the files from the remote branch, and then
-                    update your local branch to match any changes made. It's always a good idea to do this,
-                    especially when working with others as you don't know what changes could have been made since you
-                    last accessed the branch. 
-                </li>
-                <br>
-                <li>
-                    After you've confirmed everything is up-to-date, you're going to want to check out a new
-                    branch, this will be your staging area. If you're adding a new feature to any application, you want to perserve it's original
-                    state, this avoids big bugs and annoyed developers down the line. To do this in the command line type:
-                    <br>
-                    <br>
-                    <section id="terminal__body">          
-                        <div id="terminal__prompt">            
-                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git checkout -b (YOUR BRANCH NAME)</span>            
-                            <span id="terminal__prompt--cursor"></span>          
-                        </div>        
-                    </section>  
-                    <br>
-                    When naming your branch, it's good practice to name it after what you're doing/in relation to the
-                    changes being made. So, if you were to make a pull request to add a README.md file into a repo, you might
-                    name that branch 'readme-md'.
+                        </section>  
+                        <br>
+                        When naming your branch, it's good practice to name it after what you're doing/in relation to the
+                        changes being made. So, if you were to make a pull request to add a README.md file into a repo, you might
+                        name that branch 'readme-md'.
 
-                    <p>
-                        If you've done it correctly, you should have recieved the following message in your terminal:
-                    </p>
-                    <section id="terminal__body">          
-                        <div id="terminal__prompt">            
-                            <span id="terminal__prompt--user">switched to new branch '(YOUR BRANCH NAME)'</span>                     
-                        </div>        
-                    </section>
-                </li>
-                <br>
-                <li>
-                    Once you are inside you're newly created branch, you can finally add in your own code! Contribute!
-                    Go! Be Free!
-                </li>
-                <br>
-                <li>
-                    After you've made the most meaningful contributions of your life, you're going to want to save all those beautiful changes.
-                    Now we're going to do something that should hopefully feel a little fimilar. In your terminal type:
+                        <p>
+                            If you've done it correctly, you should have recieved the following message in your terminal:
+                        </p>
+                        <section id="terminal__body">          
+                            <div id="terminal__prompt">            
+                                <span id="terminal__prompt--user">switched to new branch '(YOUR BRANCH NAME)'</span>                     
+                            </div>        
+                        </section>
+                    </li>
                     <br>
+                    <li>
+                        Once you are inside you're newly created branch, you can finally add in your own code! So, contribute!
+                        Go! Be Free!
+                    </li>
                     <br>
-                    <section id="terminal__body">          
-                        <div id="terminal__prompt">            
-                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git add .</span>            
-                            <span id="terminal__prompt--cursor"></span>          
-                        </div>        
-                    </section>
-                </li>
-                <br>
-                <li>
-                    Followed by, you guessed it, 'git commit'. While you may not always make the most meaningful commit messages for your own code/repositories,
-                    (even though you should), you <strong>ALWAYS</strong> have to make meaningful commit messages when contributing to another developer's code or 
-                    in your work place. Not only is it professional and coder common courtesy, it also gives an idea as to what was done with the code at that staging period.
-                    This helps descrease debugging time, and helps eveyone else understand what the heckis going on inside the application.
+                    <li>
+                        After you've made the most meaningful contributions of your life, you're going to want to save all those beautiful changes.
+                        Now we're going to do something that should hopefully feel a little familiar. In your terminal type:
+                        <br>
+                        <br>
+                        <section id="terminal__body">          
+                            <div id="terminal__prompt">            
+                                <span id="terminal__prompt--user">user@Users-MacBook_Air: git add .</span>            
+                                <span id="terminal__prompt--cursor"></span>          
+                            </div>        
+                        </section>
+                    </li>
                     <br>
+                    <li>
+                        Followed by, you guessed it, 'git commit'. While you may not always make the most meaningful commit messages for your own code/repositories,
+                        (even though you should), you <strong>ALWAYS</strong> have to make meaningful commit messages when contributing to another developer's code or 
+                        in your work place. Not only is it professional and coder common courtesy, it also gives an idea as to what was done with the code at that staging period.
+                        This helps descrease debugging time and eveyone else will understand what the heck is going on inside the application.
+                        <br>
+                        <br>
+                        <section id="terminal__body">          
+                            <div id="terminal__prompt">            
+                                <span id="terminal__prompt--user">user@Users-MacBook_Air: git commit -m "A MEANINGFUL COMMIT MESSAGE EXPLANING WHAT YOU ADDED"</span>            
+                                <span id="terminal__prompt--cursor"></span>          
+                            </div>        
+                        </section>
+                    </li>
                     <br>
-                    <section id="terminal__body">          
-                        <div id="terminal__prompt">            
-                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git commit -m "A MEANINGFUL COMMIT MESSAGE EXPLANING WHAT YOU ADDED"</span>            
-                            <span id="terminal__prompt--cursor"></span>          
-                        </div>        
-                    </section>
-                </li>
-                <br>
-                <li>
-                    WAIT! DON'T PUSH IT YET! (I had to add this in here for those of us who like to jump ahead sometimes)
-                    Now that I hopefully have everyone's attention, you never want to just push your contribution up to the main
-                    branch. This goes back the coder common courtesy and professionalism explained before. Not to mention, you may have some 
-                    unhappy developers if you overwrote/added code that wasn't approved of first.
-                    <p>
-                        To avoid this, you'll instead push your changes to your newly created branch. This can be done by adjusting the good ol'
-                        'git push' command to the following:
-                    </p>
-                    <section id="terminal__body">          
-                        <div id="terminal__prompt">            
-                            <span id="terminal__prompt--user">user@Users-MacBook_Air: git push origin (YOUR BRANCH NAME)</span>            
-                            <span id="terminal__prompt--cursor"></span>          
-                        </div>        
-                    </section>
-                    <p>
-                        You should recieve a message back in your terminal confirming that your code was pushed up to <strong>your</strong>
-                        newly created branch. 
-                    </p>
-                </li>
-                <br>
-                <li>
-                    If you head on back over to the repository you're working on, you should see new notification 
-                    that the repository was recently updated, along with your branch name. There should also be a button that says
-                    'Compare & pull request'. Go ahead and click it, you should be lead to a page that displays your commit message!
-                    You'll see an option to leave a message underneath your commit. If you are working with others, it is great coder common
-                    courtesy to leave a nice little message further detailing your commit, or why you added it in the first place. Again, this avoids
-                    bugs and confusion later in time. 
-                </li>
-                <br>
-                <li>
-                    After you've left a message, you're going to create a pull request. You should see a 'Create pull request' button 
-                    underneath the message box, give that a click. By doing this, you're putting a request to the repository owner that you
-                    would like to push your changes to the main branch of the repository. Doing this will also notify all the other developers working
-                    on this repository that a new push request has been made. You can even assign reviewers to be notifed of your push request, which can be done under the 'reviewers'
-                    tab.
-                </li>
-                <br>
-                <li>
-                    If everything went smoothly, and you contributed something (somewhat) meaningful, you're code will get pushed and merge with the main branch.
-                    Congradulations, you just made you're first contribution. Do a dance to celebrate.
-                </li>
-            </ol>
+                    <li>
+                        WAIT! DON'T PUSH IT YET! (I had to add this in here for those of us who like to jump ahead sometimes)
+                        Now that I hopefully have everyone's attention, you never want to just push your contribution up to the main
+                        branch. This goes back the coder common courtesy and professionalism explained before. Not to mention, you may have some 
+                        unhappy developers if you overwrote/added code that wasn't approved of first.
+                        <p>
+                            To avoid this, you'll instead push your changes to your newly created branch. This can be done by adjusting the good ol'
+                            'git push' command to the following:
+                        </p>
+                        <section id="terminal__body">          
+                            <div id="terminal__prompt">            
+                                <span id="terminal__prompt--user">user@Users-MacBook_Air: git push origin (YOUR BRANCH NAME)</span>            
+                                <span id="terminal__prompt--cursor"></span>          
+                            </div>        
+                        </section>
+                        <p>
+                            You should recieve a message back in your terminal confirming that your code was pushed up to <strong>your</strong>
+                            newly created branch. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>If you head on back over to the repository you're working on, you should see new notification 
+                        that the repository was recently updated, along with your branch name. There should also be a button that says
+                        'Compare & pull request'. Go ahead and click it. 
+                        </p>
+                        <p>
+                        You should be lead to a page that displays your commit message!
+                        You'll see an option to leave a message underneath your commit. If you are working with others, it is great coder common
+                        courtesy to leave a nice little message further detailing your commit and why you added it in the first place. Again, this avoids
+                        bugs and confusion later. 
+                        </p>
+                    </li>
+                    <li>
+                        After you've left a message, you're going to create a pull request. You should see a 'Create pull request' button 
+                        underneath the message box, give that a click. By doing this, you're putting a request to the repository owner that you
+                        would like to push your changes to the main branch of the repository. Doing so will also notify all the other developers working
+                        on this repository that a new push request has been made. You can even assign reviewers to be notifed of your push request, which can be done under the 'reviewers'
+                        tab.
+                    </li>
+                    <br>
+                    <li>
+                        If everything went smoothly and you contributed something (somewhat) meaningful, you're code will get pushed, merging with the main branch.
+                        <p>
+                            Congratulations, you just made you're first contribution. Do a dance to celebrate.🎉
+                        </p>
+                    </li>
+                </ol>
+            <center>
+                <button class="resource-button">
+                    <a href="https://www.youtube.com/watch?v=MnUd31TvBoU">
+                    Youtube "How To"
+                    </a>
+                </button>
+            </center>
+        </div>
+        <h2 class="i-wuz-here-title">
+            I wuz here
+        </h2>
+            <div class="i-wuz-here-container">
+                <p style="padding: 1rem">
+                // add in your code here
+                </p>
+            </div>
     </body>

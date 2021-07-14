@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
 #terminal__body {  
     background: rgba(0, 0, 0, 0.9);  
     font-family: 'Ubuntu Mono';  
@@ -59,4 +59,44 @@ li {
 }
 h1 {
     font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+.directions-container {
+    background-color: rgb(221, 244, 252);
+    width: 55rem;
+    padding: 1rem;
+    border-radius: 2%;
+    border: 5px solid rgb(123, 191, 214);
+}
+.i-wuz-here-title {
+    position: relative;  
+    text-align: center; 
+}
+.i-wuz-here-container {
+    border: 5px solid black;
+    height: 50rem;
+    width: auto;
+    color: grey;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu Mono'
+}
+.resource-button {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+.resource-button:hover {
+    border: 2px solid rgb(123, 191, 214);
+    background-color: rgb(123, 191, 214);
+    border-radius: 3px;
+    transition: all 0.2s ease-out;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
 }
