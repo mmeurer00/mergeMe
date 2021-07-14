@@ -49,12 +49,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/mmeure
 
 ## <h2>License 🔗 </h2>
 
-
-
 [MIT](https://github.com/mmeurer00/mergeMe/blob/main/LICENSE)
 
 
 ## <h2>Code of Conduct ✌</h2>
-
 
 Everyone interacting in the Marge Me's project’s codebases, issue trackers, posts and users are expected to follow the code of conduct.
