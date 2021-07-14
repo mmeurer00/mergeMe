@@ -8,7 +8,10 @@ As a new programmer, the thought of performing your contribution can be a little
 If you open up index.html in the browser, you'll find a small application with a few features:
 
 * Directions for creating your first pull/merge request
-* A "I wuz here" section for you to add in **your** own code. *If you're comfortable with it, feel free to add in fun styling to the "I wuz here title, container, or create something new! All we ask is that you leave the directions alone, so others can have the same awesome learning experience you did.*
+
+* A "I wuz here" section for you to add in **your** own code.
+
+ *If you're comfortable with it, feel free to add in fun styling to the "I wuz here title, container, or create something new! All we ask is that you leave the directions alone, so others can have the same awesome learning experience you did.*
 
 After reading the directions, go ahead and try out making your first pull request. After you've competed everything correctly and pushed up your contribution, we'll approve it, and you'll be able see it on the main branch. That's all there is to successfully created your first contribution on github!
 
