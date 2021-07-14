@@ -22,7 +22,11 @@ After reading the directions, go ahead and try out making your first pull reques
 
 Users can access Merge Me by forking and cloning this repository.
 
-1. On the Top Right hand-side of the page, click the Fork button, then scroll up and find the green "Code" button:
+1. On the Top Right hand-side of the page, click the Fork button, then find the green "Code" button:
+
+<img src="https://camo.githubusercontent.com/947ed1dba840e1c2b6605bcf1507c1a4e1b9642be3696323ff387cbc15e70edf/687474703a2f2f692e737461636b2e696d6775722e636f6d2f6c72346d6c2e706e67" 
+style="width: 20rem; border: 2px solid black">
+<img src="https://docs.github.com/assets/images/help/repository/code-button.png" style="width: 20rem; border: 2px solid black">
 
 2. Click it, and a tab should drop down including a github link (make sure to select the one under SSH).
 
