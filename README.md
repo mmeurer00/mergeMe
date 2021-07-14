@@ -20,7 +20,7 @@ After reading the directions, go ahead and try out making your first pull reques
 ## <h2>Installation Instructions 📲</h2>
 
 
-Users can access Merge Me by Forking and Cloning this repository.
+Users can access Merge Me by forking and cloning this repository.
 
 1. On the Top Right hand-side of the page, click the Fork button, then scroll up and find the green "Code" button:
 
