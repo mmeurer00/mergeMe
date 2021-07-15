@@ -45,8 +45,6 @@ user@Users-MacBook_Air mergeMe %
 ```
 user@Users-MacBook_Air mergeMe % open index.html 
 ```
-or
-```
 
 Congrats 🎉  you can now make your first contribution! 
 
