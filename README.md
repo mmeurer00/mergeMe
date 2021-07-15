@@ -44,7 +44,7 @@ user@Users-MacBook_Air mergeMe %
 6. Once inside mergeMe, open the application in your browser by typing 'open index.html' in your terminal for Mac or 'explorer.exe index.html' for Windows:
 
 ```
-user@Users-MacBook_Air mergeMe % open index.html
+user@Users-MacBook_Air mergeMe % open index.html 
 ```
 or
 ```
