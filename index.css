@@ -2,54 +2,54 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
-#terminal__body {  
-    background: rgba(0, 0, 0, 0.9);  
-    font-family: 'Ubuntu Mono';  
-    height: 50px;  
-    padding-top: 2px;  
+#terminal__body {
+    background: rgba(0, 0, 0, 0.9);
+    font-family: 'Ubuntu Mono';
+    height: 50px;
+    padding-top: 2px;
     margin-top: -1px;
     border-radius: 2%;
-  } 
-  #terminal__prompt {  
+  }
+  #terminal__prompt {
     display: flex;
     padding: 10px;
   }
-  #terminal__prompt--user {  
+  #terminal__prompt--user {
     color: #ffffff;
   }
-  #terminal__prompt--location { 
+  #terminal__prompt--location {
     color: #4878c0;
   }
-  #terminal__prompt--bling {  
+  #terminal__prompt--bling {
     color: #dddddd;
   }
-  #terminal__prompt--cursor {  
-    display: block;  
-    height: 17px;  
-    width: 8px;  
-    margin-left: 9px;  
+  #terminal__prompt--cursor {
+    display: block;
+    height: 17px;
+    width: 8px;
+    margin-left: 9px;
     animation: blink 1200ms linear infinite;
-  } 
-  @keyframes blink {  
-    0% {    
-      background: #ffffff;  
-    }  
-    49% {    
-      background: #ffffff;  
-    }  
-    60% {    
-      background: transparent;  
-    }  
-    99% {    
-      background: transparent;  
-    }  100% {    
-      background: #ffffff;  
+  }
+  @keyframes blink {
+    0% {
+      background: #ffffff;
     }
-  } 
-  @media (max-width: 600px) {  
-        #terminal {    
-        max-height: 90%;    
-        width: 90%;  
+    49% {
+      background: #ffffff;
+    }
+    60% {
+      background: transparent;
+    }
+    99% {
+      background: transparent;
+    }  100% {
+      background: #ffffff;
+    }
+  }
+  @media (max-width: 600px) {
+        #terminal {
+        max-height: 90%;
+        width: 90%;
         }
     }
 
@@ -82,8 +82,8 @@ h1 {
 }
 
 .i-wuz-here-title {
-    position: relative;  
-    text-align: center; 
+    position: relative;
+    text-align: center;
     color: black;
 }
 
@@ -128,7 +128,10 @@ a {
   color: purple;
   padding-left: 10px;
 }
-
+.BryanJazoBranch{
+  padding-left: 10px;
+  color: red;
+}
 .itsjillbb{
   color: coral;
   padding-left: 10px;
