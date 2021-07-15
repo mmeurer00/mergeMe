@@ -50,6 +50,7 @@ or
 ```
 user@DESKTOP mergeMe$ explorer.exe index.html
 ```
+7. Inside index.html, you will be able to view the directions for "How to Make you First Opensource Contribution on Github". Underneath the directions sheet, you will see the "I wuz here" section where you can freely add your code.
 
 Congrats 🎉  you can now make your first contribution! 
 
