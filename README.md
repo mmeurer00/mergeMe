@@ -41,9 +41,14 @@ user@Users-MacBook_Air % git clone [paste link]
 ```
 user@Users-MacBook_Air mergeMe % 
 ```
-6. Once inside mergeMe, open the application in your browser by typing 'open index.html' in your terminal:
+6. Once inside mergeMe, open the application in your browser by typing 'open index.html' in your terminal for Mac or 'explorer.exe index.html' for Windows:
+
 ```
 user@Users-MacBook_Air mergeMe % open index.html
+```
+or
+```
+user@DESKTOP mergeMe$ explorer.exe index.html
 ```
 
 Congrats 🎉  you can now make your first contribution! 
