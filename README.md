@@ -1,7 +1,7 @@
 # Merge Me 🙌 
 Welcoming to Merge Me, an open source repository that allows you to practice making your first pull/merge requests.
 
-As a new programmer, the thought of performing your contribution can be a little scary. But it's time to put all your fears aside, pull yourself up, and git with the program. *See what I did there?*
+As a new programmer, the thought of performing your first contribution can be a little scary. But it's time to put all your fears aside, pull yourself up, and git with the program. *See what I did there?*
 
 ## Getting Started 🟢
 
