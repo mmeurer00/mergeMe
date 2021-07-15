@@ -43,7 +43,7 @@ user@Users-MacBook_Air mergeMe %
 ```
 6. Once inside mergeMe, open the application in your browser by typing 'open index.html' in your terminal:
 ```
-user@Users-MacBook_Air mergeMe % open index.html
+user@Users-MacBook_Air mergeMe % open index.html 
 ```
 
 Congrats 🎉  you can now make your first contribution! 
