@@ -133,3 +133,11 @@ a {
   color: coral;
   padding-left: 10px;
 }
+
+.shelbs {
+  padding-left: 10px;
+  background: linear-gradient(to right, #f71616, #2936f0, #12e463);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
