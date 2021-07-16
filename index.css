@@ -2,72 +2,87 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
 #terminal__body {
-    background: rgba(0, 0, 0, 0.9);
-    font-family: 'Ubuntu Mono';
-    height: 50px;
-    padding-top: 2px;
-    margin-top: -1px;
-    border-radius: 2%;
+  background: rgba(0, 0, 0, 0.9);
+  font-family: 'Ubuntu Mono';
+  height: 50px;
+  padding-top: 2px;
+  margin-top: -1px;
+  border-radius: 2%;
+}
+
+#terminal__prompt {
+  display: flex;
+  padding: 10px;
+}
+
+#terminal__prompt--user {
+  color: #ffffff;
+}
+
+#terminal__prompt--location {
+  color: #4878c0;
+}
+
+#terminal__prompt--bling {
+  color: #dddddd;
+}
+
+#terminal__prompt--cursor {
+  display: block;
+  height: 17px;
+  width: 8px;
+  margin-left: 9px;
+  animation: blink 1200ms linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    background: #ffffff;
   }
-  #terminal__prompt {
-    display: flex;
-    padding: 10px;
+
+  49% {
+    background: #ffffff;
   }
-  #terminal__prompt--user {
-    color: #ffffff;
+
+  60% {
+    background: transparent;
   }
-  #terminal__prompt--location {
-    color: #4878c0;
+
+  99% {
+    background: transparent;
   }
-  #terminal__prompt--bling {
-    color: #dddddd;
+
+  100% {
+    background: #ffffff;
   }
-  #terminal__prompt--cursor {
-    display: block;
-    height: 17px;
-    width: 8px;
-    margin-left: 9px;
-    animation: blink 1200ms linear infinite;
+}
+
+@media (max-width: 600px) {
+  #terminal {
+    max-height: 90%;
+    width: 90%;
   }
-  @keyframes blink {
-    0% {
-      background: #ffffff;
-    }
-    49% {
-      background: #ffffff;
-    }
-    60% {
-      background: transparent;
-    }
-    99% {
-      background: transparent;
-    }  100% {
-      background: #ffffff;
-    }
-  }
-  @media (max-width: 600px) {
-        #terminal {
-        max-height: 90%;
-        width: 90%;
-        }
-    }
+}
 
 li {
-    width: 50rem;
-    font-family: 'Noto Sans JP', sans-serif;
+  width: 50rem;
+  font-family: 'Noto Sans JP', sans-serif;
 }
+
 h1 {
-    font-family: 'Noto Sans JP', sans-serif;
-    text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
 }
+
 .directions-container {
-    background-color: rgb(221, 244, 252);
-    width: 55rem;
-    padding: 1rem;
-    border-radius: 4%;
-    border: 5px solid rgb(123, 191, 214);
-    margin: 0 auto;
+  background-color: rgb(221, 244, 252);
+  width: 55rem;
+  padding: 1rem;
+  border-radius: 4%;
+  border: 5px solid rgb(123, 191, 214);
+  margin: 0 auto;
 }
 
 
@@ -82,34 +97,35 @@ h1 {
 }
 
 .i-wuz-here-title {
-    position: relative;
-    text-align: center;
-    color: black;
+  position: relative;
+  text-align: center;
+  color: black;
 }
 
 .resource-button {
-    /* position: relative;
+  /* position: relative;
     background-color: #ff7779;
     color: white;
     width: 200px;
     border: 2px solid transparent;
     text-decoration: none;
      */
-    border-radius: 80%;
-    position: relative;
-    text-transform: inherit !important;
-    background-color: #ff7779;
-    color: white;
-    width: 250px;
-    height: 75px;
+  border-radius: 80%;
+  position: relative;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: white;
+  width: 250px;
+  height: 75px;
 }
+
 .resource-button:hover {
-    /* border: 2px solid rgb(123, 191, 214);
+  /* border: 2px solid rgb(123, 191, 214);
     background-color: rgb(123, 191, 214);
     border-radius: 3px;
     transition: all 0.2s ease-out; */
-    background-color: white;
-    color: #ff7779;
+  background-color: white;
+  color: #ff7779;
 }
 
 .strong__text {
@@ -117,22 +133,24 @@ h1 {
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 700;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
 }
 
 .nicollBranch {
   color: purple;
   padding-left: 10px;
 }
-.BryanJazoBranch{
+
+.BryanJazoBranch {
   padding-left: 10px;
   color: red;
 }
-.itsjillbb{
+
+.itsjillbb {
   color: coral;
   padding-left: 10px;
 }
@@ -143,4 +161,84 @@ a {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.roy {
+  padding: 0 10px;
+  display: inline-block;
+  animation-name: rainbow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.roy:hover {
+  font-weight: bold;
+  animation: double-rainbow .5s infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: #FF4136;
+  }
+
+  17% {
+    color: #FF851B;
+  }
+
+  34% {
+    color: #FFDC00;
+  }
+
+  51% {
+    color: #2ECC40;
+  }
+
+  68% {
+    color: #0074D9;
+  }
+
+  85% {
+    color: #B10DC9;
+  }
+
+  100% {
+    color: #F012BE;
+  }
+}
+
+@keyframes double-rainbow {
+  0% {
+    color: #FF4136;
+    background-color: #F012BE
+  }
+
+  17% {
+    color: #FF851B;
+    background-color: #B10DC9
+  }
+
+  34% {
+    color: #FFDC00;
+    background-color: #0074D9;
+  }
+
+  51% {
+    color: #2ECC40;
+    background-color: #2ECC40;
+  }
+
+  68% {
+    color: #0074D9;
+    background-color: #FFDC00;
+  }
+
+  85% {
+    color: #B10DC9;
+    background-color: #FF851B
+  }
+
+  100% {
+    color: #F012BE;
+    background-color: #FF4136;
+  }
 }
