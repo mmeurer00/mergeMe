@@ -15,14 +15,14 @@ If you open up index.html in the browser, you'll find a small application with a
 
 *If you attempt to contribute anything that breaks the code of conduct, **your contribution will not be added.***
 
-After reading the directions, go ahead and try out making your first pull request. After you've competed everything correctly and pushed up your contribution and it's approved, you'll be able see it on the main branch. That's all there is to successfully creating your first open source contribution on Github!
+After reading the directions, go ahead and try out making your first pull request. After you've competed everything correctly, pushed up your contribution to **your** branch, and it's approved, you'll be able see it on the main branch. That's all there is to successfully creating your first open source contribution on Github!
 
 ## <h2>Installation Instructions 📲</h2>
 
 
 Users can access Merge Me by forking and cloning this repository.
 
-1. On the Top Right hand-side of the page, click the Fork button,  **If you do not fork the repository prior to cloning, all of the following directions will not work as desired.**.
+1. On the Top Right hand-side of the page, click the Fork button,  **If you do not fork the repository prior to cloning, all of the following directions will not work as desired.**
 
 <img src="https://camo.githubusercontent.com/947ed1dba840e1c2b6605bcf1507c1a4e1b9642be3696323ff387cbc15e70edf/687474703a2f2f692e737461636b2e696d6775722e636f6d2f6c72346d6c2e706e67" 
 style="width: 20rem;">
